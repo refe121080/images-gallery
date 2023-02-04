@@ -21,7 +21,7 @@ const App = () => {
 
     <div className="App">
       <Header title="Images Gallery 2"></Header>
-      <Search word = {word} setWord= {setWord}handleSubmit={handleSearchSubmit}/>
+      <Search word = {word} setWord= {setWord} handleSubmit={handleSearchSubmit}/>
     </div>
   );
 }
