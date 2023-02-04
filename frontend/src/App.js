@@ -7,7 +7,6 @@ import Search from './components/Search';
 
 const UNSPLASH_KEY = process.env.REACT_APP_UNSPLASH_KEY;
 
-
 const App = () => {
   const [word, setWord] = useState('');
 
@@ -22,11 +21,9 @@ const App = () => {
       })
       .catch((err) => {
         console.log(err);
-      })
-
+      });
       setWord('');
-
-  }
+  };
 
   return (
 
